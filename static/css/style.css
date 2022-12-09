@@ -1,0 +1,168 @@
+:root{
+    --body-bg: #bebebe;
+    --msger-bg: #fff;
+    --left-msg-bg: #ececec;
+    --right-msg-bg: #77abee;
+}
+
+body{
+    background-image: url('../picture/bg.png');
+    background-size: 100%;
+}
+.klmpk{
+    margin-top: 10px;
+    margin-left: 3cm;
+}
+.verikal_center{
+    /*mengatur border bagian kiri tag div */
+    border-left: 6px solid #8F3F26;
+    /* mengatur tinggi tag div*/
+    height: 50px;
+}
+.putih{
+    color: rgb(255, 255, 255);
+}
+.judul{
+    margin-top: 150px;
+    margin-left: 1.5cm;
+    font-size: 90px;
+    line-height: 90px;
+}
+.subJudul{
+    margin-left: 2cm;
+}
+.btn{
+    background-color: #CB3F13;
+    font-size: 40px;
+    color: black;
+    border-radius: 60px;
+    width: 500px;
+    margin-top: 130px;
+    margin-left: 4cm;
+}
+.head-chtbt{
+    margin-top: 5px;
+    height: 55px;
+    width: 90%;
+    background-color: goldenrod;
+
+}
+.jdl-chtbt{
+    text-align: center;
+    margin-top: 10px;
+    display: inline;
+}
+.container{
+    height: 300px;
+    width: 90%;
+    background-color: azure;
+}
+.backIcon{
+    height: 75px;
+}
+.sendIcon{
+    height: 47px;
+    margin-bottom: 8px;
+}
+.head{
+    margin-top: 5px;
+    height: 100px;
+    background-color: goldenrod;
+}
+.head-chatbot{
+    color: #000;
+    font-weight: bolder;
+}
+.buttonn{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+.send{
+    height: 77px;
+    background-color: goldenrod;
+    
+}
+.isi{
+    height: 550px;
+}
+.card{
+    height: 525px;
+}
+
+
+
+
+
+
+
+
+/* Chat dari bot */
+.msger-chat {
+    flex: 1;
+    overflow-y: auto;
+    padding: 10px;
+}
+.msger-chat::-webkit-scrollbar {
+    width: 6px;
+}
+.msger-chat::-webkit-scrollbar-track {
+    background: #ddd;
+}
+.msger-chat::-webkit-scrollbar-thumb {
+    background: #bdbdbd;
+}
+.msg {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 10px;
+}
+.msg-img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    background: #ddd;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    background-image: url('../picture/icon_chatbot.png');
+} 
+.msg-bubble {
+    max-width: 450px;
+    padding: 15px;
+    border-radius: 15px;
+    background: var(--left-msg-bg);
+}
+.msg-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.msg-info-name {
+    margin-right: 10px;
+    font-weight: bold;
+}
+.msg-info-time {
+    font-size: 0.85em;
+}
+.left-msg .msg-bubble {
+    border-bottom-left-radius: 0;
+}
+
+/* chat dari user */
+.right-msg {
+    flex-direction: row-reverse;
+}
+.right-msg .msg-bubble {
+    background: var(--right-msg-bg);
+    border-bottom-right-radius: 0;
+}
+.right-msg .msg-img {
+    margin: 0 0 0 10px;
+}
+

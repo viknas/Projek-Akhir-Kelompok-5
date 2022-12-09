@@ -1,0 +1,330 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "hallo",
+          "hai",
+          "halo",
+          "hei",
+          "hi",
+          "hy",
+          "pagi",
+          "morning",
+          "siang",
+          "afternoon",
+          "sore",
+          "malam",
+          "bro",
+          "sis",
+          "kawan"
+        ],
+        "responses": [
+          "Hai! Telebot di sini. Mau tau informasi tentang apa nih?",
+          "Halo! Saya Telebot, salam kenal ya! Mau tau tentang jogja, kan?",
+          "Helo! Ini Telebot. Lagi kepo tentang jogja ya?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Dah",
+          "Dadah",
+          "Bye",
+          "Byee",
+          "Good bye",
+          "Selamat tinggal",
+          "Sampai jumpa",
+          "Bai",
+          "See you"
+        ],
+        "responses": [
+          "Bye!",
+          "Dadahh!",
+          "Good bye!",
+          "Dahh, semoga harimu menyenangkan yaa!",
+          "Sampai jumpa lagi!",
+          "See u! Senang bisa membantu"
+        ]
+      },
+      {
+        "tag": "terimakasih",
+        "patterns": [
+          "Thanks",
+          "Thank you",
+          "Terima kasih",
+          "Makasih",
+          "Terima kasih banyak"
+        ],
+        "responses": [
+          "Dengan senang hati:)"
+        ]
+      },
+      {
+        "tag": "wisata_jogja",
+        "patterns": [
+          "Apa yang bagus di Jogja?",
+          "Apa saja yang bagus di yogyakarta",
+          "Rekomendasi wisata jogja",
+          "Rekomendasi tempat wisata jogja",
+          "Wisata jogja yang bagus",
+          "Wisata yogyakarta yang bagus"
+        ],
+        "responses": [
+            "Ada beberapa destinasi Wisata Jogja yang Wajib Dikunjungi",
+            "Pantai Wediombo",
+            "Taman Pintar",
+            "Merapi Park",
+            "Heha Sky View",
+            "Obelix Hills Sunset View",
+            "Jogja Agro Techno Park",
+            "Tugu Yogyakarta",
+            "Kraton Yogyakarta",
+            "Situs Warungboto",
+            "Agrowisata Bhumi Merapi"
+        ]
+      },
+      {
+        "tag": "jalan_jalan_jogja",
+        "patterns": [
+          "Jalan jalan ke Jogja enaknya kemana?",
+          "Enaknya jalan-jalan kemana",
+          "Mau kemana hari ini",
+          "Kemana hari ini",
+          "Jalan-jalan kemana hari ini"
+        ],
+        "responses": [
+            "Jalan Malioboro. Jelas saja tempat wisata di Jogja yang satu ini wajib ada di nomor 1.",
+            "Kraton Yogyakarta.",
+            "Alun-Alun Selatan.",
+            "Taman Sari.",
+            "Tugu Yogyakarta.",
+            "Candi Prambanan.",
+            "Candi Borobudur.",
+            "Pantai Parangtritis."
+        ]
+      },
+      {
+        "tag": "wisata_edukasi",
+        "patterns": [
+          "Rekomendasi wisata edukasi di Jogja?",
+          "Apa wisata edukasi jogja",
+          "Wisata edukasi di jogja",
+          "wisata edukasi jogja",
+          "Wisata edukasi yogyakarta",
+          "Wisata edukasi di yogyakarta"
+        ],
+        "responses": [
+          "Ada beberapa wisata edukasi di Jogja antara lain taman pintar, taman budaya, Sindu Kusuma Edupark."
+        ]
+      },
+      {
+        "tag": "tiket_masuk_wisata_edukasi",
+        "patterns": [
+          "Berapa harga tiket masuk wisata edukasi jogja?",
+          "Harga tiket masuk wisata edukasi jogja",
+          "Tiket masuk wisata edukasi di jogja",
+          "Tiket masuk wisata edukasi di yogyakarta",
+          "Tiket masuk wisata edukasi jogja",
+          "Tiket masuk wisata edukasi yogyakarta"
+        ],
+        "responses": [
+            "Tarif untuk masuk ke Taman Pintar berkisar antara Rp 3 ribu sampai Rp 22 ribu, bergantung usia dan wahana yang ingin dikunjungi.",
+            "Tarif untuk masuk ke Sindu Kusuma Edupark berkisar antara Rp 25 ribu sampai Rp 60 ribu",
+            "Tarif untuk masuk ke Taman Budaya sendiri sebenarnya gratis untuk umum, namun setiap pengelola acara berbeda-beda sehingga ada yang menetapkan tarif tiket masuk dan ada juga yang tidak. Ini juga tergantung dari sponsor dan ivent organizer yang mengadakan. Adapun harga tiket biasanya mulai dari 5.000 rupiah dan atau mengisi buku tamu."
+        ]
+      },
+      {
+        "tag": "deskripsi_wisata_edukasi",
+        "patterns": [
+          "Ada apa saja di wisata edukasi jogja?",
+          "Terdapat apa saja di wisata edukasi jogja? "
+        ],
+        "responses": [
+            "Taman Pintar merupakan Taman yang memadukan tempat wisata rekreasi maupun edukasi dalam satu lokasi.Adapun fasilitas ditaman pintar adalah alat peraga IPTEK yang interaktif, Ruangan yang disewakan untuk umum, Food court, musholla, ruang kesehatan, Pusat informasi dan pelayanan pengunjung, Lift untuk pengunjung yang berkebutuhan khusus.",
+            "Ada bermacam-macam wahana Sindu Kusuma Edupark, baik wahana bermain maupun wahana belajar yang bisa dinikmati oleh semua anggota keluarga.",
+            "Taman Budaya Yogyakarta adalah sarana wisata yang terletak di Jalan Sri Wedani No 1, Yogyakarta. TBY memiliki kompleks gedung yang berfungsi sebagai tempat pameran, pertunjukan, dan berbagai kegiatan seni lainnya. TBY merupakan Unit Pelaksana Teknis Dinas pada Dinas Kebudayaan Provinsi Daerah Istimewa Yogyakarta."
+        ]
+      },
+      {
+        "tag": "wisata_pantai",
+        "patterns": [
+            "Rekomendasi pantai di Jogja?",
+            "Pantai bagus di jogja",
+            "Pantai jogja",
+            "Pantai di jogja",
+            "Pantai yogyakarta",
+            "Pantai di yogyakarta"
+        ],
+        "responses": [
+            "Ada Pantai Parangtritis, Pantai Indrayanti, Pantai Nglambor, Pantai Pok Tunggal, Pantai Watu Lumbung, Pantai Goa Cemara, Pantai Glagah, Pantai Nguluran, Pantai Timang"
+        ]
+      },
+      {
+        "tag": "tiket_masuk_wisata_pantai",
+        "patterns": [
+            "Berapa harga tiket masuk pantai di Jogja?",
+            "Harga tiket masuk pantai",
+            "Tiket masuk pantai",
+            "Tiket masuk pantai jogja",
+            "Tiket masuk pantai yogyakarta"
+        ],
+        "responses": [
+            "Untuk tikwt masuk wisata pantai dijogja hanya berkisar 10 ribu/orang"
+        ]
+      },
+      {
+        "tag": "wisata_candi",
+        "patterns": [
+            "Rekomendasi candi di Jogja?",
+            "Candi bagus di jogja",
+            "Candi jogja",
+            "Candi di jogja",
+            "Candi yogyakarta",
+            "Candi di yogyakarta"
+        ],
+        "responses": [
+            "Ada Candi Borobudur, Candi Prambanan, Candi Ratu Boko, Candi Sewu"
+        ]
+      },
+      {
+        "tag": "tiket_masuk_wisata_candi",
+        "patterns": [
+            "Berapa harga tiket masuk candi di jogja?",
+            "Harga tiket masuk candi",
+            "Tiket masuk candi",
+            "Tiket masuk candi jogja",
+            "Tiket masuk candi yogyakarta"
+
+        ],
+        "responses": [
+            "Harga tiket masuk Candi Prambanan Rp48.000 untuk WNI dan Rp.348.000 untuk WNA.",
+            "Harga tiket Candi Borobudur untuk wisawatan domestik usia 10 tahun ke atas sekitar Rp 50.000 per orang. Sedangkan untuk anak-anak dengan usia 3 tahun sampai 10 tahun biaya masuk yang dikenakan sekitar Rp. 25.000 per orang.",
+            "Harga tiket masuk Candi Ratu Boko juga sangat terjangkau loh! Hanya mulai dari 19 ribu untuk anak-anak dan 38 ribu untuk orang dewasa",
+            "Tiket masuk Candi Sewu Yogyakarta yaitu berkisar antara Rp.20.000,- sampai Rp. 40.000,-."
+        ]
+      },
+      {
+        "tag": "keistimewaan_jogja",
+        "patterns": [
+            "Apa keistimewaan kota Jogja?",
+            "Keistimewaan jogja",
+            "Keistimewaan Yogyakarta"
+        ],
+        "responses": [
+            "Keistimewaan Yogyakarta tidak hanya dilihat dari sudut pandang politik dan pemerintahan, namun juga aspek-aspek sosial budaya yang bermuara di Kraton Yogyakarta. Keraton Yogyakarta adalah simbol budaya adiluhung Jawa.."
+        ]
+      },
+      {
+        "tag": "kuliner_jogja",
+        "patterns": [
+          "Apa makanan khas Jogja?",
+          "Makanan khas jogja",
+          "Makanan dari jogja"
+        ],
+        "responses": [
+          "makanan khas jogja adalah gudeg, coklat monggo, bakmi, belalang sate klathak bakpia"
+        ]
+      },
+      {
+        "tag": "gudeg_jogja",
+        "patterns": [
+            "Rekomendasi gudeg di Jogja?",
+            "Dimana gudeg yang enak",
+            "Gudeg jogja"
+        ],
+        "responses": [
+            "Gudeg Yu Djum Gudeg Mercon Bu Narti, Gudeg Pawon, Gudeg Bromo."
+        ]
+      },
+      {
+        "tag": "tempat_makan_jogja",
+        "patterns": [
+            "Rekomendasi tempat makan di Jogja",
+            "tempat makan jogja yang enak",
+            "Tempat makan jogja",
+            "Tempat makan yogyakarta"
+        ],
+        "responses": [
+            "kamu bisa makan atau nongkrong di angkringan, oseng - oseng mercon"
+        ]
+      },
+      {
+        "tag": "oleh__oleh_jogja",
+        "patterns": [
+            "Rekomendasi oleh-oleh dari Jogja",
+            "Apa saja oleh-oleh jogja",
+            "Apa saja oleh-oleh khas jogja"
+        ],
+        "responses": [
+            "kamu bisa membeli Bakpia kencana, bakpia pathuk, yangko, walang goreng, bakpia 45, bakpia kurnia sari, bakpiaku, bakpia tugu"
+        ]
+        },
+      {
+        "tag": "penginapan_malioboro",
+        "patterns": [
+            "Rekomendasi hotel dekat malioboro",
+            "Hotel dekat malioboro",
+            "Hotel terdekat dari malioboro"
+        ],
+        "responses": [
+            "Novotel Suites Yogyakarta Malioboro.",
+            "Hotel di Danurejan, Yogyakarta.",
+            "el Hotel Royale Yogyakarta Malioboro",
+            "Unisi Hotel Malioboro Jogja Syariah.",
+            "KHAS Malioboro Hotel",
+            "Hotel Neo Malioboro by ASTON.",
+            "Hotel Dafam Fortuna Malioboro",
+            "Grand Inna Malioboro",
+            "Melia Purosani Yogyakarta"
+        ]
+      },
+      {
+        "tag": "penginapan_taman_budaya",
+        "patterns": [
+            "Rekomendasi hotel dekat taman budaya?",
+            "Hotel dekat taman budaya",
+            "Hotel terdekat dari taman budaya"
+        ],
+        "responses": [
+            "RedDoorz Syariah @ Wisma Arya 2",
+            "Royal Ambarrukmo Yogyakarta",
+            "Grand Ambarrukmo Hotel",
+            "Eastparc Hotel Yogyakarta",
+            "Grand Rohan Jogja"
+        ]
+      },
+      {
+        "tag": "penginapan_tugu_jogja",
+        "patterns": [
+            "Rekomendasi hotel dekat Tugu Yogyakarta",
+            "Hotel dekat Tugu Jogja",
+            "Hotel terdekat dari Tugu Jogja"
+        ],
+        "responses": [
+            "Hotel Santika Premiere Jogja",
+            "THE 101 Yogyakarta Tugu",
+            "The Phoenix Hotel Yogyakarta",
+            "Hotel Arjuna Yogyakarta",
+            "RedDoorz near Tugu Yogyakarta",
+            "Sare Hotel Yogyakarta"
+        ]
+      },
+      {
+        "tag": "penginapan_keraton_jogja",
+        "patterns": [
+            "Rekomendasi hotel dekat keraton jogja",
+            "Hotel dekat Keraton",
+            "Hotel terdekat dari Keraton"
+        ],
+        "responses": [
+            "KHAS Malioboro Hotel",
+            "The Alana Hotel & Conference Center Malioboro",
+            "Yogyakarta by ASTON",
+            "D'Senopati Malioboro Grand Hotel",
+            "Hotel Novateel",
+            "RedDoorz Syariah near Wijilan Yogyakarta"
+        ]
+      }
+    ]
+  }
